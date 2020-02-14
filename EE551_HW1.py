@@ -4,6 +4,13 @@
 Python Core object Types
 """
 
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
 import math
 
 def numbers_and_strings():
@@ -71,7 +78,7 @@ def dictionaries():
     # Create a dictionary that maps:
     #   fruit => "apple"
     #   quantity => 4
-    #   color => "green"
+    #   color => "green
     f = {'fruit' : 'apple', 'quantity' : 4, 'color' : 'green'}
     
     # Get the item in dictionary f that the key "fruit" maps to
@@ -79,7 +86,7 @@ def dictionaries():
     
     # Increase the quantity of f by 1
     # IMPLEMENT IT HERE
-    f.get('quantity) + 1
+    f.get('quantity') + 1
 
     # Create a nested dictionary where:
     #   name => {first_name => "Grace", last_name => "Hopper"} (a dictionary)
@@ -105,7 +112,6 @@ def dictionaries():
 numbers_and_strings()
 lists()
 dictionaries()
-
 
 
 
